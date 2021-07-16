@@ -175,7 +175,7 @@ c_rev_shell(){
 
 		return 0;       
 	}
-	""" > /tmp/shell.c && gcc /tmp/shell.c --output csh && ./csh && \
+	""" > /tmp/shell.c && $CC /tmp/shell.c --output csh && ./csh && \
 		rm /tmp/shell.c && rm csh
 }
 

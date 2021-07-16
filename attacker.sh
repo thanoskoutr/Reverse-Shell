@@ -76,7 +76,7 @@ if [[ -z $PORT ]]; then
 fi
 
 # Check if selecetd PORT requires sudo priviliges
-if [[ $PORT < 1024 ]]; then
+if [[ $PORT -lt 1024 ]]; then
 	echo "Choose a PORT >= 1024 for execution with non-root priviliges"
 	is_root
 fi
