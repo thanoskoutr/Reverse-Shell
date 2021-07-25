@@ -22,7 +22,7 @@ int main(int argc, char* argv[]){
     }
 
     if (argc > 3) {
-        printf("usage: %s [-h] PORT\n", argv[0]);
+        printf("usage: %s [-h] IP PORT\n", argv[0]);
         printf("%s: error: unrecognized arguments: ", argv[0]);
         for (int i = 3; i < argc; i++) {
             printf("%s ", argv[i]);
