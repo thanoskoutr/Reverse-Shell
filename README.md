@@ -95,3 +95,6 @@ node reverse.js IP PORT
     - [ ] `pwsh` (Powershell)
     - [ ] `openssl`
 - [ ] Add more persistent scripts for other languages.
+
+## Links
+- [Reverse Shell Cheat Sheet](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md)
